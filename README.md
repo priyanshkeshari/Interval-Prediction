@@ -99,21 +99,21 @@ flowchart TD
 
 The competition evaluates models using the **Winkler Interval Score**:
 
-[ W\_`\alpha `{=tex}=
-```{=tex}
+$$
+W_\alpha =
 \begin{cases}
 (u - l) + \frac{2}{\alpha}(l - y), & \text{if } y < l \\
 (u - l), & \text{if } l \leq y \leq u \\
 (u - l) + \frac{2}{\alpha}(y - u), & \text{if } y > u
 \end{cases}
-```
-]
+$$
 
 Where:
-- ( y ): true sale price
-- ( u ): upper prediction interval
-- ( l ): lower prediction interval
-- ( `\alpha `{=tex}): miscoverage rate (0.1 for 90% coverage)
+
+- \( y \): true sale price  
+- \( u \): upper prediction interval  
+- \( l \): lower prediction interval  
+- \( \alpha \): miscoverage rate (0.1 for 90% coverage)
 
 👉 **Interpretation:** Lower Winkler scores = tighter intervals with
 correct coverage.
