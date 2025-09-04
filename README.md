@@ -22,7 +22,7 @@ decision-making.
 
 -   **Dataset:** Provided by the Kaggle competition.
 
--   **Target variable:** House sale price.
+-   **Target variable:** House interval: lower and upper bound.
 
 -   **Features:** A mix of numerical and categorical attributes
     describing house characteristics.
