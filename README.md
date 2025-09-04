@@ -130,16 +130,20 @@ Install dependencies (recommend using a virtual environment):
 pip install -r requirements.txt
 ```
 
-Example `requirements.txt`:
+`requirements.txt`:
 
     numpy
     pandas
     scikit-learn
     matplotlib
     seaborn
+    scipy
     xgboost
     lightgbm
     catboost
+    joblib
+    jupyter
+    ipython
 
 ### 2️⃣ Run Notebook
 
