@@ -1,4 +1,4 @@
-# 🏠 House Price Prediction with Prediction Intervals
+# 🏠 House Price Prediction Intervals
 
 [**Kaggle Competition: Prediction Interval Competition II - House
 Price**](https://www.kaggle.com/competitions/prediction-interval-competition-ii-house-price)
