@@ -196,12 +196,13 @@ validating the robustness of the approach.
 - Achieved **top 6% ranking** in a competitive Kaggle setting.
 
 **Future Directions:**
-- Advanced ensembles: LightGBM, CatBoost, and tuned XGBoost.
+- Advanced ensembles: LightGBM, CatBoost, HistGradientBoostingRegressor, and tuned XGBoost.
 - Explore Bayesian approaches for probabilistic intervals.
 - Domain-specific feature engineering to further reduce Winkler scores.
 
 ------------------------------------------------------------------------
 
 📌 **Author:** Priyansh Keshari
+<br>
 📌 **Competition:** [Prediction Interval Competition II - House
 Price](https://www.kaggle.com/competitions/prediction-interval-competition-ii-house-price)
