@@ -72,7 +72,7 @@ decision-making.
 flowchart TD
     A[📥 Data Loading<br/>Import CSVs] --> B[🛠 Preprocessing<br/>Handle missing values, encode categoricals, feature engineering]
     B --> C[🔀 Data Splitting<br/>Train, Validation, Calibration, Test]
-    C --> D[🤖 Base Models<br/>Linear, Tree-based, Boosting]
+    C --> D[🤖 Base Models<br/>Tree-based, Boosting]
     D --> E[🧩 Ensemble Model<br/>Stacked predictions]
     E --> F[📏 Conformal Prediction<br/>Calibrate intervals]
     F --> G[📊 Evaluation<br/>Winkler Score + Coverage]
@@ -88,7 +88,7 @@ flowchart TD
     lower (α = 0.05) and upper (α = 0.95) quantiles.
 -   **Conformal Prediction:** Residual-based calibration to ensure 90%
     coverage.
--   **Hyperparameter Tuning:** Grid/Random search for sharper
+-   **Hyperparameter Tuning:** Random search for sharper
     intervals.
 -   **Final Predictions:** Ensemble + conformal calibration outputs
     point + interval predictions.
