@@ -114,7 +114,7 @@ Where:
 - \( u \): upper prediction interval  
 - \( l \): lower prediction interval  
 - \( \alpha \): miscoverage rate (0.1 for 90% coverage)
-- - α : miscoverage rate (0.1 for 90% coverage)
+- \( α \): miscoverage rate (0.1 for 90% coverage)
 
 👉 **Interpretation:** Lower Winkler scores = tighter intervals with
 correct coverage.
